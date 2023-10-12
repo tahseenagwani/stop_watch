@@ -71,10 +71,10 @@ if(status===1){
 
         </div>
         <div>
-          { (status==0) &&
+          { (status===0) &&
           <button onClick={run} >start</button>
 } 
-  { (status==1) &&
+  { (status===1) &&
          
           <button onClick={stopwatch}>stop</button>
        
